@@ -1,2 +1,2 @@
 # projetowebpokemon
-para os projetos web, envolvendo grid e acessibilidade
+para os projetos web da fafic, envolvendo grid e acessibilidade
