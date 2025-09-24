@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
+/* Henry */
+
+/* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
+main {
+    padding: 5rem;
+}
+/* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
+
+.destaques {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.destaques h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.artigos h2 {
+    flex-basis: 100%;
+}
+
+.artigos div {
+    flex: 0.5;
+}
+
+/* Henry */
