@@ -58,6 +58,7 @@ h3 {
     flex-wrap: wrap;
     gap: 1rem;
     background-color: white;
+    border: 0.625rem solid black;
 }
 
 .artigos h2 {
@@ -71,6 +72,7 @@ h3 {
     background-color: white;
     color: black;
     flex: 0.5;
+    border: 1px solid black;
 }
 .artigos div h3 {
     color: black;
