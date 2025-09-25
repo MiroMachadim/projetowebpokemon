@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* Henry */
 
 /* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
@@ -37,3 +38,26 @@ main {
 }
 
 /* Henry */
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titulo1, .titulo2, .titulo3 {
+    background-color: rgba(0, 0, 0, 0.779);
+    padding: 16px 100px ;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.criadores{
+    background-color: brown;
+    padding: 6px 15px ;
+    border-radius: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 575px;
+}
