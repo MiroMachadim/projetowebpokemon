@@ -1,12 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url(images/teste1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 /* Henry */
 
 /* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
 main {
+    background-image: url(images/v1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 5rem;
 }
 /* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
@@ -17,9 +30,23 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.container {
+    padding-top: 0;
+    background-color: #2e2220;
+    border: 5px solid black;
+}
+
 .destaques h2 {
+    display: flexbox;
+    text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: black;
+}
+
+.destaques p {
+    background-color: #1f1a1a;
+    border: 3px solid black;
 }
 
 .artigos {
