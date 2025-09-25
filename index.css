@@ -6,10 +6,10 @@
 }
 
 body {
-    background-image: url(assets/teste1.jpg);
+    background-image: url(assets/fazendo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 
@@ -21,9 +21,8 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 5rem;
+    margin: 5% 10% 5% 10%;
+    padding: 1rem;
 }
 /* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
 
@@ -37,13 +36,15 @@ main {
 .container {
     padding-top: 0;
     background-color: #2e2220;
-    border: 5px solid #1e2110;
+    border: 5px solid #540810;
 }
-
+h3 {
+    text-align: center;
+}
 .destaques h2 {
-    display: flex;
     grid-column-start: 1;
     grid-column-end: 4;
+    border: 0;
     background-color: black;
 }
 
@@ -56,14 +57,26 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    background-color: white;
 }
 
 .artigos h2 {
+    background-color: red;
     flex-basis: 100%;
+    text-align: center;
+    border-bottom: 1em solid black;
 }
 
 .artigos div {
+    background-color: white;
+    color: black;
     flex: 0.5;
+}
+.artigos div h3 {
+    color: black;
+}
+.artigos div p {
+    color: black;
 }
 
 /* Henry */
