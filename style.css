@@ -130,3 +130,9 @@ h3 {
 footer {
     background-color: black;
 }
+.musica h2 em {
+    color: black;
+}
+span {
+    font-size: 1rem;
+}
