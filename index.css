@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -5,17 +6,19 @@
 }
 
 body {
-    background-image: url(images/teste1.jpg);
+    background-image: url(assets/teste1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Henry */
 
 /* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
 main {
-    background-image: url(images/v1.jpg);
+    background-image: url(assets/v1.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-left: 10%;
@@ -28,17 +31,17 @@ main {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
 }
 
 .container {
     padding-top: 0;
     background-color: #2e2220;
-    border: 5px solid black;
+    border: 5px solid #1e2110;
 }
 
 .destaques h2 {
-    display: flexbox;
-    text-align: center;
+    display: flex;
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: black;
