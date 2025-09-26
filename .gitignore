@@ -1,0 +1,4 @@
+images/
+*.py
+templates/
+static/

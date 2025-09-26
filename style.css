@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url(assets/fazendo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    background-color: silver;
+    color: #540810;
+}
+
+/* Henry */
+
+/* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
+main {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgb(192, 192, 192) 0 20px,
+        rgb(169, 169, 169) 20px 30px
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0 10% 0 10%;
+    height: auto;
+    padding: 1rem;
+}
+/* Pode mudar isso daq miro, mas eu preciso de algo parecido*/
+
+.destaques {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    margin: 1rem 0.625rem;
+    padding: 1%;
+    border-radius: 0.625rem;
+}
+.destaques img {
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.container {
+    padding-top: 0;
+    background-color: #2e2220;
+    border: 5px solid #540810;
+}
+h3 {
+    text-align: center;
+}
+.destaques h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.destaques p {
+    background-color: #1f1a1a;
+    border: 3px solid black;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: white;
+    border: 0.625rem solid black;
+    border-radius: 0.625rem;
+}
+
+.artigos h2 {
+    background-color: red;
+    flex-basis: 100%;
+    text-align: center;
+    border-bottom: 1em solid black;
+}
+
+.artigos div {
+    background: linear-gradient(#fff, #000 48%, #fff 52%);
+    color: black;
+    flex: 0.5;
+}
+.artigos div h3 {
+    color: black;
+}
+.artigos div p {
+    color: black;
+}
+
+/* Henry */
+
+.centralizar {
+    background-color: white;
+    margin-top: 0;
+    margin: 0 10%;
+    display: flex;
+    gap: auto;
+    border-bottom: 0.25rem solid cornsilk;
+}
+
+.titulo1,
+.titulo2,
+.titulo3 {
+    background-color: rgba(0, 0, 0, 0.779);
+    padding: 16px 100px;
+    margin: auto;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.criadores {
+    background-color: brown;
+    padding: 6px 15px;
+    border-radius: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0;
+    width: 15%;
+    justify-content: center;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+}
+.musica h2 em {
+    color: black;
+}
+span {
+    font-size: 0.85rem;
+    font-style: italic;
+}
